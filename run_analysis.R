@@ -1,3 +1,4 @@
+library(dplyr)
 # read features, activity labels, test and training data
 features <- read.table("features.txt")
 activities <- read.table("activity_labels.txt")
